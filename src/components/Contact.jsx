@@ -17,7 +17,6 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Placeholder for email sending logic
         console.log("Form submitted:", formData);
         alert("Thanks for your message! This is a demo form.");
         setFormData({ name: "", email: "", message: "" });
@@ -25,7 +24,6 @@ const Contact = () => {
 
     return (
         <section id="contact" className="py-24 px-6 bg-bg relative overflow-hidden">
-            {/* Background Decorations */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                 <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
                 <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-secondary/10 rounded-full blur-3xl"></div>
@@ -95,7 +93,6 @@ const Contact = () => {
                         </div>
                     </motion.div>
 
-                    {/* Contact Form */}
                     <motion.div
                         initial={{ opacity: 0, x: 30 }}
                         whileInView={{ opacity: 1, x: 0 }}

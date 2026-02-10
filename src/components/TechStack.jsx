@@ -33,7 +33,6 @@ const TechStack = () => {
                                 </Tilt>
                             ))}
                         </div>
-                        {/* Divider */}
                         <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-white/10 to-transparent mt-16"></div>
                     </div>
                 ))}

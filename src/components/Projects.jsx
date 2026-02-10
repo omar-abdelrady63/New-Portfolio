@@ -26,7 +26,6 @@ const Projects = () => {
                                 scale={1.02}
                                 className="bg-card border border-text-main/10 rounded-2xl overflow-hidden h-full flex flex-col hover:border-primary/50 transition-all group shadow-xl"
                             >
-                                {/* Image / Thumbnail Area */}
                                 <div className="relative h-48 bg-gray-800/50 flex items-center justify-center overflow-hidden group">
                                     {project.image ? (
                                         <img
@@ -40,10 +39,8 @@ const Projects = () => {
                                         </div>
                                     )}
 
-                                    {/* Overlay Gradient */}
                                     <div className="absolute inset-0 bg-bg/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-                                    {/* Overlay Links */}
                                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-4 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-4 group-hover:translate-y-[-50%] z-10">
                                         {project.github !== "Private Repo" && (
                                             <a href={project.github} target="_blank" rel="noreferrer" className="p-3 bg-text-main/10 backdrop-blur-md rounded-full hover:bg-text-main text-text-main hover:text-bg transition-all hover:scale-110">
@@ -64,7 +61,6 @@ const Projects = () => {
                                         {project.description}
                                     </p>
 
-                                    {/* Problem Solved Tooltip or Small Text */}
                                     <p className="text-xs text-text-muted mb-6 italic border-l-2 border-text-muted/50 pl-3">
                                         "{project.problemSolved}"
                                     </p>

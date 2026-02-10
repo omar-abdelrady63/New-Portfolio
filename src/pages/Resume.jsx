@@ -9,7 +9,6 @@ const Resume = () => {
     return (
         <div className="bg-white text-black min-h-screen pt-24 pb-12 font-sans relative">
 
-            {/* Download/Print Button (Floating) */}
             <div className="fixed bottom-8 right-8 z-50 print:hidden">
                 <button
                     onClick={handlePrint}
@@ -39,10 +38,8 @@ const Resume = () => {
 
                 <div className="grid grid-cols-12 gap-8">
 
-                    {/* Left Column (Main Content) */}
                     <div className="col-span-12 md:col-span-8 space-y-8">
 
-                        {/* Experience / Timeline */}
                         <section>
                             <h3 className="text-lg font-bold uppercase border-b border-gray-300 mb-4 pb-1 text-gray-800">Experience & Education</h3>
                             <div className="space-y-6">
@@ -60,7 +57,6 @@ const Resume = () => {
                             </div>
                         </section>
 
-                        {/* Projects */}
                         <section>
                             <h3 className="text-lg font-bold uppercase border-b border-gray-300 mb-4 pb-1 text-gray-800">Key Projects</h3>
                             <div className="space-y-4">
@@ -78,11 +74,8 @@ const Resume = () => {
                         </section>
 
                     </div>
-
-                    {/* Right Column (Sidebar) */}
                     <div className="col-span-12 md:col-span-4 space-y-8">
 
-                        {/* Skills */}
                         <section>
                             <h3 className="text-lg font-bold uppercase border-b border-gray-300 mb-4 pb-1 text-gray-800">Technical Skills</h3>
 
@@ -102,7 +95,6 @@ const Resume = () => {
                             </div>
                         </section>
 
-                        {/* Languages */}
                         <section>
                             <h3 className="text-lg font-bold uppercase border-b border-gray-300 mb-4 pb-1 text-gray-800">Languages</h3>
                             <ul className="text-sm text-gray-700 space-y-1">
@@ -114,7 +106,6 @@ const Resume = () => {
                     </div>
                 </div>
 
-                {/* Footer Quote */}
                 <div className="mt-12 text-center text-xs text-gray-400 pt-8 border-t border-gray-100">
                     <p>Designed & Built by {PROFILE.name}</p>
                 </div>

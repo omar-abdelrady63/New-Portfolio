@@ -14,7 +14,6 @@ function App() {
         <ThemeProvider>
             <Router>
                 <Routes>
-                    {/* Main Portfolio Route */}
                     <Route
                         path="/"
                         element={
@@ -30,7 +29,6 @@ function App() {
                         }
                     />
 
-                    {/* Resume Route */}
                     <Route path="/resume" element={<Resume />} />
                 </Routes>
             </Router>
