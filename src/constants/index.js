@@ -133,7 +133,7 @@ export const PROJECTS = [
       { name: "MySQL", icon: SiMysql, color: "#4479A1" },
       { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
     ],
-    link: "#",
+    link: "Private Repo",
     github: "https://github.com/omar-abdelrady63/CRUD-Operations-using-PHP-laravel",
     image: PHP,
     problemSolved: "Built in ITI summer training camp."
