@@ -5,6 +5,11 @@ import {
   SiMongodb, SiExpress, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiLaravel, SiFlask, SiMysql, SiPostgresql,
   SiPostman, SiGit, SiBootstrap, SiVercel, SiSocketdotio, SiVite, SiHtml5, SiCss3, SiNextdotjs
 } from "react-icons/si";
+import cychess from "../assets/projects/cychess.jpg";
+import MovieTheater from "../assets/projects/MovieTheater.png";
+import PHP from "../assets/projects/PHP.png";
+import BeanScene from "../assets/projects/Bean Scene.png";
+import EDUKATE from "../assets/projects/EDUKATE.png";
 
 export const PROFILE = {
   name: "Omar Aly Abd-Elrady",
@@ -90,7 +95,7 @@ export const PROJECTS = [
     ],
     link: "https://cychess.vercel.app/",
     github: "Private Repo",
-    image: "/src/assets/projects/cychess.jpg",
+    image: cychess,
     problemSolved: "Solves real-time synchronization in competitive play using Socket.io and authoritative server-side time management. Integrates Stockfish via WASM/Web Workers."
   },
   {
@@ -103,7 +108,7 @@ export const PROJECTS = [
     ],
     link: "https://movie-theater-9esm-nine.vercel.app/",
     github: "https://github.com/omar-abdelrady63/Movie-Theater",
-    image: "/src/assets/projects/MovieTheater.png",
+    image: MovieTheater,
     problemSolved: "First project using React/Vite, dealing with API calling and Vercel deployment."
   },
   {
@@ -130,7 +135,7 @@ export const PROJECTS = [
     ],
     link: "#",
     github: "https://github.com/omar-abdelrady63/CRUD-Operations-using-PHP-laravel",
-    image: "/src/assets/projects/PHP.png",
+    image: PHP,
     problemSolved: "Built in ITI summer training camp."
   },
   {
@@ -143,7 +148,7 @@ export const PROJECTS = [
     ],
     link: "https://omar-abdelrady63.github.io/Bean-Scene/",
     github: "https://github.com/omar-abdelrady63/Bean-Scene",
-    image: "/src/assets/projects/Bean Scene.png",
+    image: BeanScene,
     problemSolved: "First project planned and executed entirely independently."
   },
   {
@@ -155,7 +160,7 @@ export const PROJECTS = [
     ],
     link: "https://omar-abdelrady63.github.io/EDUKATE/",
     github: "https://github.com/omar-abdelrady63/EDUKATE",
-    image: "/src/assets/projects/EDUKATE.png",
+    image: EDUKATE,
     problemSolved: "First project built without any help during NTI camp."
   }
 ];
