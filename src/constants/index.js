@@ -8,8 +8,8 @@ import {
 import cychess from "../assets/projects/cychess.jpg";
 import MovieTheater from "../assets/projects/MovieTheater.png";
 import PHP from "../assets/projects/PHP.png";
-import BeanScene from "../assets/projects/Bean Scene.png";
 import EDUKATE from "../assets/projects/EDUKATE.png";
+import RKGN from "../assets/projects/rkgn.png";
 
 export const PROFILE = {
   name: "Omar Aly Abd-Elrady",
@@ -94,9 +94,25 @@ export const PROJECTS = [
       { name: "Docker", icon: FaDocker, color: "#2496ED" },
     ],
     link: "https://cychess.vercel.app/",
-    github: "Private Repo",
+    github: "https://github.com/omar-abdelrady63/cychess",
     image: cychess,
     problemSolved: "Solves real-time synchronization in competitive play using Socket.io and authoritative server-side time management. Integrates Stockfish via WASM/Web Workers."
+  },
+  {
+    title: "RKGN",
+    description: "Powerful AI-enhanced code generation platform that accelerates software development by generating fully functional project templates with customizable architectures, tech stacks, and database schemas.",
+    techStack: [
+      { name: "React.js", icon: FaReact, color: "#61DAFB" },
+      { name: "Node.js", icon: FaNodeJs, color: "#339933" },
+      { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+      { name: "Express", icon: SiExpress, color: "#000000" },
+      { name: "ImageKit", icon: SiNextdotjs, color: "#000000" },
+      { name: "gemeni API", icon: SiNextdotjs, color: "#000000" },
+    ],
+    link: "https://rkgn.vercel.app/",
+    github: "https://github.com/omar-abdelrady63/RKGN",
+    image: RKGN,
+    problemSolved: "That project helps backend devs a lot. If you are a backend dev you may like to try it."
   },
   {
     title: "Movie Theater",
@@ -137,19 +153,6 @@ export const PROJECTS = [
     github: "https://github.com/omar-abdelrady63/CRUD-Operations-using-PHP-laravel",
     image: PHP,
     problemSolved: "Built in ITI summer training camp."
-  },
-  {
-    title: "Bean Scene",
-    description: "Modern coffee shop landing page with animations.",
-    techStack: [
-      { name: "HTML5", icon: SiHtml5, color: "#E34F26" },
-      { name: "CSS3", icon: SiCss3, color: "#1572B6" },
-      { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
-    ],
-    link: "https://omar-abdelrady63.github.io/Bean-Scene/",
-    github: "https://github.com/omar-abdelrady63/Bean-Scene",
-    image: BeanScene,
-    problemSolved: "First project planned and executed entirely independently."
   },
   {
     title: "EDUKATE",
