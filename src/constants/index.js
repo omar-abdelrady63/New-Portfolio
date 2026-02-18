@@ -9,7 +9,7 @@ import cychess from "../assets/projects/cychess.jpg";
 import MovieTheater from "../assets/projects/MovieTheater.png";
 import PHP from "../assets/projects/PHP.png";
 import EDUKATE from "../assets/projects/EDUKATE.png";
-import RKGN from "../assets/projects/rkgn.png";
+import RKGN from "../assets/projects/RKGN.png";
 
 export const PROFILE = {
   name: "Omar Aly Abd-Elrady",
